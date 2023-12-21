@@ -20,7 +20,7 @@ const toDelete=(id)=>{
     return (
 
         <div className='wrapper'> 
-            <h2 className='name'>To-Do List</h2>
+            <h2 className='name'>To-Do Lists</h2>
             <TextBox getName={getName} />
             <Task dataList={dataList}  toDelete={toDelete} />
         </div>
